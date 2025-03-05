@@ -27,6 +27,10 @@ const Navbar = () => {
         <div className="navbar-profile">
           <img src={Profile_icon} alt="" className="profile" />
           <img src={Caret_icon} alt="" />
+          <div className="dropdown">
+            <p>Sign Out of Netflix</p>
+            
+          </div>
         </div>
       </div>
     </div>
